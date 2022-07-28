@@ -2,19 +2,13 @@
   "name": "base64url-universal",
   "version": "2.0.1-0",
   "description": "Encode/decode \"Base64url Encoding\" format of JSON Web Signature (JWS) RFC7517.",
-  "homepage": "https://github.com/digitalbazaar/base64url-universal",
-  "author": {
-    "name": "Digital Bazaar, Inc.",
-    "email": "support@digitalbazaar.com",
-    "url": "https://digitalbazaar.com/"
-  },
+  "homepage": "https://github.com/digitalcredentials/base64url-universal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/base64url-universal"
+    "url": "https://github.com/digitalcredentials/base64url-universal"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/base64url-universal/issues",
-    "email": "support@digitalbazaar.com"
+    "url": "https://github.com/digitalcredentials/base64url-universal/issues"
   },
   "license": "BSD-3-Clause",
   "type": "module",
