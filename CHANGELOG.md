@@ -1,5 +1,10 @@
 # base64url-universal ChangeLog
 
+## 2.0.1 - 2022-08-14
+
+### Changed
+- Switch to build-time transpile (to match current DCC libs).
+
 ## 2.0.0 - 2022-06-01
 
 ### Changed
