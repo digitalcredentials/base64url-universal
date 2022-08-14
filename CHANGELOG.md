@@ -1,5 +1,9 @@
 # base64url-universal ChangeLog
 
+## 2.0.2 - 2022-08-14
+### Fixed
+- Fix various esm export issues (add deps to rollup externals, fix export).
+
 ## 2.0.1 - 2022-08-14
 
 ### Changed
