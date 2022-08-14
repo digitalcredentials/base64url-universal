@@ -7,6 +7,7 @@ export default [
         format: 'cjs',
         preserveModules: true
       }
-    ]
+    ],
+    external: ['base64url']
   }
 ];
