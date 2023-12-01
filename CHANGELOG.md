@@ -5,6 +5,7 @@
 ### Fixed
 - Fix test execution by implementing pre-test and post-test scripts.
 - Improve rollup config script.
+- Fix build script.
 
 ## 2.0.2 - 2022-08-14
 
