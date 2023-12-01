@@ -1,11 +1,24 @@
 export default [
+  // CommonJS
   {
     input: './lib/index.js',
     output: [
       {
-        dir: 'dist',
+        file: 'dist/index.js',
         format: 'cjs',
-        preserveModules: true
+        exports: 'auto'
+      }
+    ],
+    external: ['base64url']
+  },
+  // ESM
+  {
+    input: './lib/index.js',
+    output: [
+      {
+        file: 'dist/esm/index.js',
+        format: 'esm',
+        exports: 'auto'
       }
     ],
     external: ['base64url']
