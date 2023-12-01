@@ -1,6 +1,13 @@
 # base64url-universal ChangeLog
 
+## 2.0.3 - 2023-12-01
+
+### Fixed
+- Fix test execution by implementing pre-test and post-test scripts.
+- Improve rollup config script.
+
 ## 2.0.2 - 2022-08-14
+
 ### Fixed
 - Fix various esm export issues (add deps to rollup externals, fix export).
 
