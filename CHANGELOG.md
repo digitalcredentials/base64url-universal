@@ -1,4 +1,4 @@
-# base64url-universal ChangeLog
+# @digitalcredentials/base64url-universal ChangeLog
 
 ## 2.0.3 - 2023-12-01
 
