@@ -1,5 +1,10 @@
 # @digitalcredentials/base64url-universal ChangeLog
 
+## 2.0.4 - 2023-12-06
+
+### Fixed
+- Fix published package (include dist).
+
 ## 2.0.3 - 2023-12-01
 
 ### Fixed
