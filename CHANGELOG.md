@@ -1,5 +1,10 @@
 # @digitalcredentials/base64url-universal ChangeLog
 
+## 2.0.5 - 2023-12-06
+
+### Fixed
+- Fix webpack and RN exports.
+
 ## 2.0.4 - 2023-12-06
 
 ### Fixed

@@ -1,26 +1,26 @@
 export default [
-  // CommonJS
+  // Node
   {
     input: './lib/index.js',
     output: [
       {
-        file: 'dist/index.js',
+        dir: 'dist',
         format: 'cjs',
-        exports: 'auto'
+        preserveModules: true
       }
     ],
     external: ['base64url']
   },
-  // ESM
+  // Browser and React Native
   {
-    input: './lib/index.js',
+    input: './lib/browser.js',
     output: [
       {
-        file: 'dist/esm/index.js',
-        format: 'esm',
-        exports: 'auto'
+        dir: 'dist',
+        format: 'cjs',
+        preserveModules: true
       }
     ],
     external: ['base64url']
-  }
+  },
 ];

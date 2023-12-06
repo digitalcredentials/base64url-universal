@@ -1,11 +1,19 @@
+const path = require('path');
+
 module.exports = {
   mode: 'production',
-  entry: {
-    'base64url-universal': './lib/index.js'
-  },
+  target: 'web',
   output: {
+    path: path.join(__dirname, 'dist'),
     filename: '[name].min.js',
-    library: 'base64url-universal',
+    library: '[name]',
     libraryTarget: 'umd'
+  },
+  node: false,
+  resolve: {
+    fallback: {
+      util: false,
+      crypto: false
+    }
   }
 };
